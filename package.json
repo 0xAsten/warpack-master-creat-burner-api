@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@dojoengine/create-burner": "^0.6.125",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "starknet": "^6.8.0"
   }

@@ -1,9 +1,11 @@
 import { BurnerManager } from '@dojoengine/create-burner'
 import { Account, RpcProvider } from 'starknet'
 import express from 'express'
+import cors from 'cors'
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 const rpcProvider = new RpcProvider({
   nodeUrl: 'https://api.cartridge.gg/x/warpack-masters-v2/katana',
